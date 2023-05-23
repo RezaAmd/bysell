@@ -396,4 +396,45 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
-/Presentation/Nop.Web/wwwroot/images/thumbs
+
+#######################
+## nopCommerce specific
+###########
+glob:*.user
+*.patch
+*.hg
+/Presentation/Nop.Web/.config/*
+/Presentation/Nop.Web/App_Data/browscap.xml
+/Presentation/Nop.Web/App_Data/additional.crawlers.xml
+/Presentation/Nop.Web/App_Data/installedPlugins.json
+/Presentation/Nop.Web/App_Data/plugins.json
+/Presentation/Nop.Web/App_Data/dataSettings.json
+/Presentation/Nop.Web/App_Data/appsettings.json
+/Presentation/Nop.Web/App_Data/TempUploads/*
+/Presentation/Nop.Web/App_Data/TempUploads/Index.htm
+/Presentation/Nop.Web/App_Data/DataProtectionKeys/*
+/Presentation/Nop.Web/App_Data/DataProtectionKeys/Index.htm
+/Presentation/Nop.Web/node_modules/*
+/Presentation/Nop.Web/Plugins/*
+/Presentation/Nop.Web/Plugins/Uploaded
+/Presentation/Nop.Web/Plugins/Uploaded/*
+/Presentation/Nop.Web/Plugins/Uploaded/placeholder.txt
+/Presentation/Nop.Web/wwwroot/.well-known/*
+/Presentation/Nop.Web/wwwroot/.well-known/Index.htm
+/Presentation/Nop.Web/wwwroot/bundles/*
+/Presentation/Nop.Web/wwwroot/bundles/Index.htm
+/Presentation/Nop.Web/wwwroot/db_backups/*.bak
+/Presentation/Nop.Web/wwwroot/db_backups/Index.htm
+/Presentation/Nop.Web/wwwroot/images/thumbs/*
+/Presentation/Nop.Web/wwwroot/images/thumbs/placeholder.txt
+/Presentation/Nop.Web/wwwroot/images/uploaded/*
+/Presentation/Nop.Web/wwwroot/images/uploaded/placeholder.txt
+/Presentation/Nop.Web/wwwroot/files/exportimport/*
+/Presentation/Nop.Web/wwwroot/files/exportimport/Index.htm
+/Presentation/Nop.Web/wwwroot/lib_npm/cldr-data/main/*
+/Presentation/Nop.Web/wwwroot/lib_npm/cldr-data/main/en/
+/Presentation/Nop.Web/wwwroot/lib_npm/cldr-data/main/main.zip
+/Presentation/Nop.Web/wwwroot/sitemaps/*
+/Presentation/Nop.Web/wwwroot/sitemaps/Index.htm
+/packages/*
+/Tests/Nop.Tests/Connections.resx
